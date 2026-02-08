@@ -61,7 +61,7 @@ Customer churn is a critical challenge for telecommunications companies. This pr
 
 ### Dashboard 1: Customer Churn Dashboard
 
-![Customer Churn Dashboard]![Image](https://github.com/user-attachments/assets/ce8157f4-dad5-4319-9979-0f99b7135f46)
+![Customer Churn Dashboard][![Image](https://github.com/user-attachments/assets/ce8157f4-dad5-4319-9979-0f99b7135f46)](https://private-user-images.githubusercontent.com/182972313/546813381-d1623fd5-4fe6-4d0c-a82a-18d466122997.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzA1ODQzNTEsIm5iZiI6MTc3MDU4NDA1MSwicGF0aCI6Ii8xODI5NzIzMTMvNTQ2ODEzMzgxLWQxNjIzZmQ1LTRmZTYtNGQwYy1hODJhLTE4ZDQ2NjEyMjk5Ny5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwOFQyMDU0MTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jN2I1ZGQ5ZTA3YjYzZGM5MDk2MTI1MDlhYWZiMzQ0YmM3NzMzYjdiMjBkMzA0YjE1MmRkY2JiOWU3YWNiM2IzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.se2OLt-BawaiR_AX5T3QQtdPzFmZxfTpMMJmjgXFWPI)
 
 **Focus:** At-risk customer profile and service subscriptions
 
