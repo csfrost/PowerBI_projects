@@ -61,7 +61,7 @@ Customer churn is a critical challenge for telecommunications companies. This pr
 
 ### Dashboard 1: Customer Churn Dashboard
 
-![Customer Churn Dashboard](telecom_customer_churn_analysis/Customer churn dashboard screenshot.jpg)
+![Customer Churn Dashboard](telecom_customer_churn_analysis/Churn.jpg)
 
 **Focus:** At-risk customer profile and service subscriptions
 
@@ -75,7 +75,7 @@ Customer churn is a critical challenge for telecommunications companies. This pr
 
 ### Dashboard 2: Customer Risk Analysis Dashboard
 
-![Customer Risk Analysis Dashboard](telecom_customer_churn_analysis/Customer risk analysis dashboard screenshot .jpg)
+![Customer Risk Analysis Dashboard](telecom_customer_churn_analysis/Risk.jpg)
 
 **Focus:** Churn rate analysis across different dimensions
 
