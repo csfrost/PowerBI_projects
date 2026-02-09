@@ -2,8 +2,6 @@
 
 A comprehensive Power BI dashboard analyzing water access challenges across Maji Ndogo and providing data-driven insights for infrastructure improvement planning.
 
-![National Dashboard Overview](docs/visualizations/national-dashboard.png)
-
 ## Project Overview
 
 This project visualizes the results of a national water survey in Maji Ndogo, helping decision-makers understand:
@@ -36,7 +34,7 @@ The analysis covers 5 provinces in Maji Ndogo:
 - **Provincial Comparison:** Budget allocation and improvement distribution
 - **Interactive Filters:** Province selector with geographic visualization
 
-![National Dashboard Features](docs/visualizations/national.png)
+![](docs/visualizations/national.png)
 *Interactive national dashboard with provincial filters and drill-through capabilities*
 
 ### Provincial Deep-Dive Reports
@@ -53,16 +51,16 @@ Each province has a dedicated report page showing:
 ![Sokoto Report](docs/visualizations/sokoto.png)
 
 **Akatsi Province Report**
-![Akatsi Report](docs/visualizations/akatsi.png)
+![](docs/visualizations/akatsi.png)
 
 **Amanzi Province Report**
-![Amanzi Report](docs/visualizations/amanzi.png)
+![](docs/visualizations/amanzi.png)
 
 **Hawassa Province Report**
-![Hawassa Report](docs/visualizations/hawassa.png)
+![](docs/visualizations/Hawassa.png)
 
 **Kilmani Province Report**
-![Kilmani Report](docs/visualizations/kilmani.png)
+![](docs/visualizations/kilmani.png)
 
 ### Improvement Categories
 1. **Drill Well** - 3.4K improvements
@@ -248,7 +246,7 @@ This project follows a user-story driven approach:
 3. Town-level statistics and relevant provincial data
 4. Summary of improvements and associated costs
 
-## mpact
+## Impact
 
 This dashboard enables:
 - **Strategic Planning:** Evidence-based budget allocation across provinces
