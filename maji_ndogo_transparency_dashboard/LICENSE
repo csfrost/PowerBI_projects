@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2024 csfrost
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL TERMS FOR EDUCATIONAL PROJECT:
+
+This license applies to the code, documentation, and analytical methods contained
+in this repository. 
+
+DATASET NOTICE:
+The underlying dataset ("Maji Ndogo Water Services Data") used in this project is
+proprietary to ALX Africa and is NOT included in this repository. All rights to
+the dataset are reserved by ALX Africa.
+
+Any use, reproduction, or distribution of the dataset requires separate permission
+from ALX Africa (https://www.alxafrica.com/).
+
+POWER BI FILE:
+The Power BI (.pbix) file is not distributed in this repository due to data
+licensing restrictions. The file structure, DAX formulas, and analytical approaches
+are documented in the README and associated documentation files.
