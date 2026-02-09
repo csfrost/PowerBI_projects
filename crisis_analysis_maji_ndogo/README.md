@@ -1,4 +1,7 @@
 # Maji Ndogo Water Crisis Analysis - Power BI Dashboard
+[![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow?logo=powerbi)](https://powerbi.microsoft.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![ALX Africa](https://img.shields.io/badge/ALX-Africa-green)](https://www.alxafrica.com/)
 
 A comprehensive Power BI dashboard analyzing water access challenges across Maji Ndogo and providing data-driven insights for infrastructure improvement planning.
 
