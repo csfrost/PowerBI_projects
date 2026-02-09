@@ -6,9 +6,9 @@
 
 An interactive Power BI dashboard tracking the progress, costs, and impact of a multi-year water infrastructure improvement project in Maji Ndogo. This comprehensive analytics solution monitors 25,369 water sources across five provinces, providing real-time transparency to stakeholders and enabling data-driven decision-making for budget optimization.
 
-![National Dashboard Overview](dashboard_screenshots/national_overview.png)
+![](visualizations/national.png)
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Background](#background)
 - [Key Features](#key-features)
@@ -18,12 +18,12 @@ An interactive Power BI dashboard tracking the progress, costs, and impact of a 
 - [Project Structure](#project-structure)
 - [Skills Demonstrated](#skills-demonstrated)
 - [Installation & Usage](#installation--usage)
-- [Screenshots](#screenshots)
+- [Visualizations](#visualizations)
 - [Related Projects](#related-projects)
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
 
-## 🌍 Background
+## Background
 
 This project is the fourth phase of the Maji Ndogo water crisis analysis, focusing on tracking the implementation of water infrastructure improvements across the region. The dashboard serves dual purposes:
 
@@ -39,33 +39,33 @@ Enabling decision-makers to monitor progress, control costs, and optimize vendor
 **Population Impacted**: 28M citizens  
 **Provinces Covered**: 5 (Sokoto, Akatsi, Amanzi, Hawassa, Kilimani)
 
-## ✨ Key Features
+## Key Features
 
-### 📊 Real-Time Progress Tracking
+### Real-Time Progress Tracking
 - Project completion percentage with time-series visualization
 - Water source improvement status by location
 - Population access to basic water services metrics
 - Interactive map showing completion rates by province and town
 
-### 💰 Budget & Cost Analysis
+### Budget & Cost Analysis
 - Cumulative cost vs. budget KPI tracking
 - Budget variance analysis by province and improvement type
 - Cost breakdown by water source type (wells, taps, filters, infrastructure)
 - Rural vs. urban cost comparisons
 
-### 🏆 Vendor Performance Analytics
+### endor Performance Analytics
 - Vendor efficiency analysis controlling for location and job type
 - Cost optimization recommendations
 - Travel pattern analysis revealing cost drivers
 - Comparative vendor performance metrics
 
-### 🔍 Interactive Filtering
+### Interactive Filtering
 - Date range sliders for temporal analysis
 - Province and town selectors
 - Improvement type filters
 - Rural/urban classification toggles
 
-## 🗂️ Dashboard Components
+## Dashboard Components
 
 ### 1. National Overview Page
 - Current project status (100% completion)
@@ -102,7 +102,7 @@ Each showing:
 - Town-level budget summaries
 - Cost per citizen calculations
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### Data Model Architecture
 - **Star Schema Design**: Central fact table (project_progress) with related dimension tables
@@ -204,7 +204,7 @@ pct_population_now_basic_access =
 - **Custom Tooltips**: Rich hover information with contextual data
 - **Conditional Formatting**: Color-coded metrics for quick insights
 
-## 📈 Key Insights & Findings
+## Key Insights & Findings
 
 ### 1. Budget Performance
 - **Initial Projection**: 10% over budget after year 1
@@ -242,7 +242,7 @@ pct_population_now_basic_access =
 - **Early Impact**: 11,000+ people helped in first phase
 - **Budget Efficiency**: Stayed within 5% of revised projections
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 maji_ndogo_transparency_dashboard/
@@ -251,7 +251,7 @@ maji_ndogo_transparency_dashboard/
 ├── LICENSE                            # MIT License
 ├── .gitignore                        # Git ignore patterns
 │
-├── dashboard_screenshots/            # Visual documentation
+├── visualizations/                   # Visual documentation
 │   ├── national_overview.png
 │   ├── sokoto_report.png
 │   ├── akatsi_report.png
@@ -260,17 +260,13 @@ maji_ndogo_transparency_dashboard/
 │   └── kilimani_report.png
 │
 ├── documentation/                    # Additional documentation
-│   ├── DATA_DICTIONARY.md           # Data structure reference
-│   ├── DAX_FORMULAS.md              # Complete DAX reference
-│   └── USER_GUIDE.md                # Dashboard navigation guide
-│
-└── assets/                          # Supporting files
-    └── MD_Full_map.json             # Custom map shape file
+    ├── DATA_DICTIONARY.md           # Data structure reference
+    ├── DAX_FORMULAS.md              # Complete DAX reference
 ```
 
 **Note**: Dataset files (`Md_water_services_data.xlsx`) and the Power BI file (`P4.pbix`) are proprietary to ALX Africa and are not included in this public repository.
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 ### Data Analysis & Visualization
 ✓ Complex DAX measure creation for KPIs and time-intelligence  
@@ -298,7 +294,7 @@ maji_ndogo_transparency_dashboard/
 ✓ Actionable recommendation generation from analytics  
 ✓ Clear documentation and knowledge transfer  
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 - **Power BI Desktop** (latest version recommended)
@@ -351,42 +347,44 @@ maji_ndogo_transparency_dashboard/
 - Compare provinces to identify patterns
 - Drill into specific vendors when analyzing cost efficiency
 
-## 📸 Screenshots
+## Visualizations
 
 ### National Overview Dashboard
-![National Dashboard](dashboard_screenshots/national_overview.png)
-*Main dashboard showing project completion (100%), population access improvement (34%→77%), budget tracking KPI, and interactive map with provincial completion rates*
+![](visualizations/national.png)
+*Main dashboard showing project completion, population access improvement (34%→77%), budget tracking KPI, and interactive map with provincial completion rates*
 
 ### Sokoto Province Report
-![Sokoto Report](dashboard_screenshots/sokoto_report.png)
+![](visualizations/sokoto.png)
 *Detailed analysis of Sokoto showing $40.2M budget allocation, 49.3% rural vs 8.8% urban spending split, and breakdown of 5,603 improvements including 1,709 wells drilled*
 
 ### Akatsi Province Report
-![Akatsi Report](dashboard_screenshots/akatsi_report.png)
+![](visualizations/akatsi.png)
 *Akatsi province overview with $31.4M budget, 4,963 improvements, showing lower cost per citizen ($5.23) and different improvement mix with focus on RO filter installations (2,056)*
 
 ### Amanzi Province Report
-![Amanzi Report](dashboard_screenshots/amanzi_report.png)
+![](visualizations/amanzi.png)
 *Amanzi province showing $13.4M budget, 3,748 improvements, and the lowest cost per citizen ($2.47) demonstrating efficient resource utilization in more accessible areas*
 
 ### Hawassa Province Report
-![Hawassa Report](dashboard_screenshots/hawassa_report.png)
+![](visualizations/hawassa.png)
 *Hawassa province details with $22.6M budget, 4,384 improvements, balanced rural/urban distribution, and $5.87 cost per citizen*
 
 ### Kilimani Province Report
-![Kilimani Report](dashboard_screenshots/kilimani_report.png)
+![](visualizations/kilimani.png)
 *Kilimani province showing largest scope with $39.2M budget, 6,700 improvements across diverse terrain, $5.96 cost per citizen*
 
-## 🔗 Related Projects
+## Related Projects
 
-This project is part of a comprehensive **Maji Ndogo Water Crisis Analysis** series:
+This project is part of a comprehensive **Maji Ndogo Water Analysis** series:
 
 1. **[Crisis Analysis Dashboard](https://github.com/csfrost/PowerBI_projects/tree/main/crisis_analysis_maji_ndogo)** - Initial assessment identifying 25,369 water sources needing improvement
-2. **SQL Data Analysis** - Cleaning and exploration of 60,000+ survey records
-3. **Improvement Planning** - Budget allocation modeling and prioritization framework
+2. **SQL Projects** - Cleaning and exploration of 60,000+ survey records
+    - **[Audit Investigation (SQL)](https://github.com/csfrost/SQL_projects/tree/main/audit_investigation)**
+    - **[Audits to Action (SQL)](https://github.com/csfrost/SQL_projects/tree/main/audits_to_actions)**
+    - **[Clustering Water Crisis (SQL)](https://github.com/csfrost/SQL_projects/tree/main/clustering_water_crisis)**
 4. **Transparency Dashboard** *(This Project)* - Implementation tracking and performance optimization
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This project was completed as part of the **ALX Africa Data Analytics Program** integrated project series.
 
@@ -401,7 +399,7 @@ This project was completed as part of the **ALX Africa Data Analytics Program** 
 
 ---
 
-## 📧 Contact
+## Contact
 
 **Author**: [csfrost](https://github.com/csfrost)  
 
@@ -415,7 +413,7 @@ For questions about this project or collaboration opportunities:
 
 ---
 
-## 📄 License
+## License
 
 **Code & Documentation**: MIT License - see [LICENSE](LICENSE) file for details
 
