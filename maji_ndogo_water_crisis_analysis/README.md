@@ -2,7 +2,7 @@
 
 A comprehensive Power BI dashboard analyzing water access challenges across Maji Ndogo and providing data-driven insights for infrastructure improvement planning.
 
-## 📊 Project Overview
+## Project Overview
 
 This project visualizes the results of a national water survey in Maji Ndogo, helping decision-makers understand:
 - Current water access levels across 5 provinces
@@ -16,7 +16,7 @@ This project visualizes the results of a national water survey in Maji Ndogo, he
 - **Projected Improvement:** +64% population with basic water access
 - **Total Improvements Needed:** 25,398 across all provinces
 
-## 🗺️ Geographic Coverage
+## Geographic Coverage
 
 The analysis covers 5 provinces in Maji Ndogo:
 - **Akatsi** - 5.99M population | 4,963 improvements | $31.4M budget
@@ -25,7 +25,7 @@ The analysis covers 5 provinces in Maji Ndogo:
 - **Kilmani** - 6.58M population | 6,700 improvements | $39.2M budget
 - **Sokoto** - 5.77M population | 5,603 improvements | $40.2M budget
 
-## 🎯 Dashboard Features
+## Dashboard Features
 
 ### National Overview
 - **High-Impact Metrics:** Total budget, current access %, improvement percentage
@@ -51,7 +51,7 @@ Each province has a dedicated report page showing:
 
 *Aggregated category combining Install 1-8 taps
 
-## 🔧 Technical Implementation
+## Technical Implementation
 
 ### DAX Calculations
 
@@ -138,7 +138,7 @@ IF(
 - **Slicers:** Province selection with map visualization
 - **Custom Buttons:** Toggle between different data perspectives
 
-## 📈 Water Access Classification (UN Standards)
+## Water Access Classification (UN Standards)
 
 | Service Level | Definition |
 |---------------|------------|
@@ -148,14 +148,14 @@ IF(
 | **Unimproved** | Unprotected dug well or unprotected spring |
 | **Surface Water** | Directly from river, dam, lake, pond, stream, canal, or irrigation canal |
 
-## 🎨 Visualization Guidelines
+## Visualization Guidelines
 
 - **Minimal Formatting:** Clean design focused on data clarity
 - **Consistent Color Scheme:** Professional color palette across all visuals
 - **User-Centric Design:** Built from user stories to meet decision-maker needs
 - **Data Hierarchy:** Clear information architecture from national to provincial to town level
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 maji-ndogo-water-crisis-analysis/
@@ -175,7 +175,7 @@ maji-ndogo-water-crisis-analysis/
     └── P3.pbix
 ```
 
-## 🚀 Usage
+## Usage
 
 1. Download or clone this repository
 2. Open `reports/P3.pbix` in Power BI Desktop
@@ -184,7 +184,7 @@ maji-ndogo-water-crisis-analysis/
 5. Right-click any province in charts to drill through to provincial reports
 6. Use the back button to return to the National overview
 
-## 📚 Methodology
+## Methodology
 
 This project follows a user-story driven approach:
 
@@ -200,7 +200,7 @@ This project follows a user-story driven approach:
 3. Town-level statistics and relevant provincial data
 4. Summary of improvements and associated costs
 
-## 🏆 Impact
+## Impact
 
 This dashboard enables:
 - **Strategic Planning:** Evidence-based budget allocation across provinces
@@ -208,7 +208,7 @@ This dashboard enables:
 - **Progress Monitoring:** Baseline measurement (34% access) for future impact assessment
 - **Localized Decision-Making:** Provincial leaders can prioritize town-level interventions
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This project was developed as part of the Data Analytics program with **ALX Africa**. The comprehensive dataset and project structure were provided by ALX Africa as part of their curriculum in building real-world data analysis skills.
 
@@ -217,19 +217,19 @@ Special thanks to:
 - The instructional team for guidance on Power BI best practices and data visualization principles
 - Fellow learners for collaborative problem-solving throughout the program
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 **Note:** The dataset used in this project is proprietary to ALX Africa and cannot be redistributed. This repository contains only the Power BI report file and documentation.
 
-## 👤 Author
+## Author
 
-**Chris Frost**
+**CSFrost**
 - GitHub: [@csfrost](https://github.com/csfrost)
 - Portfolio: [PowerBI Projects](https://github.com/csfrost/PowerBI_projects)
 
-## 📞 Contact
+## Contact
 
 For questions about this project or collaboration opportunities, please open an issue in this repository or reach out via GitHub.
 
