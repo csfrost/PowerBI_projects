@@ -1,0 +1,67 @@
+# Power BI Files
+*.pbix
+*.pbit
+*.pbids
+*.pbir
+
+# Dataset Files (Proprietary)
+*.xlsx
+*.csv
+*.json
+Md_water_services_data.*
+MD_Full_map.json
+
+# Power BI Temp Files
+*.tmp
+~$*
+
+# Excel Temporary Files
+~$*.xls*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Log Files
+*.log
+
+# Documentation Build Files
+_site/
+.jekyll-cache/
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python (if used for preprocessing)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# R (if used for preprocessing)
+.Rhistory
+.RData
+.Rproj.user
+
+# Personal Notes
+notes/
+personal/
+TODO.md
