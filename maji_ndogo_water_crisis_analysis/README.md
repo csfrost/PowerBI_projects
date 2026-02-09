@@ -2,6 +2,8 @@
 
 A comprehensive Power BI dashboard analyzing water access challenges across Maji Ndogo and providing data-driven insights for infrastructure improvement planning.
 
+![National Dashboard Overview](docs/visualizations/national-dashboard.png)
+
 ## 📊 Project Overview
 
 This project visualizes the results of a national water survey in Maji Ndogo, helping decision-makers understand:
@@ -34,6 +36,9 @@ The analysis covers 5 provinces in Maji Ndogo:
 - **Provincial Comparison:** Budget allocation and improvement distribution
 - **Interactive Filters:** Province selector with geographic visualization
 
+![National Dashboard Features](docs/visualizations/national.png)
+*Interactive national dashboard with provincial filters and drill-through capabilities*
+
 ### Provincial Deep-Dive Reports
 Each province has a dedicated report page showing:
 - Budget allocation by improvement type (donut chart)
@@ -41,6 +46,23 @@ Each province has a dedicated report page showing:
 - Town-level breakdown (data table)
 - Improvement quantities by type (bar chart)
 - Total provincial budget card
+
+#### Sample Provincial Reports
+
+**Sokoto Province Report**
+![Sokoto Report](docs/visualizations/sokoto.png)
+
+**Akatsi Province Report**
+![Akatsi Report](docs/visualizations/akatsi.png)
+
+**Amanzi Province Report**
+![Amanzi Report](docs/visualizations/amanzi.png)
+
+**Hawassa Province Report**
+![Hawassa Report](docs/visualizations/hawassa.png)
+
+**Kilmani Province Report**
+![Kilmani Report](docs/visualizations/kilmani.png)
 
 ### Improvement Categories
 1. **Drill Well** - 3.4K improvements
@@ -155,6 +177,31 @@ IF(
 - **User-Centric Design:** Built from user stories to meet decision-maker needs
 - **Data Hierarchy:** Clear information architecture from national to provincial to town level
 
+## 📸 Dashboard Gallery
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/visualizations/national.png" alt="National Overview" />
+      <p align="center"><i>National Overview Dashboard</i></p>
+    </td>
+    <td width="50%">
+      <img src="docs/visualizations/sokoto.png" alt="Sokoto Province" />
+      <p align="center"><i>Sokoto Provincial Report</i></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="docs/visualizations/akatsi.png" alt="Akatsi Province" />
+      <p align="center"><i>Akatsi Provincial Report</i></p>
+    </td>
+    <td width="50%">
+      <img src="docs/visualizations/kilmani.png" alt="Kilmani Province" />
+      <p align="center"><i>Kilmani Provincial Report</i></p>
+    </td>
+  </tr>
+</table>
+
 ## 📁 Repository Structure
 
 ```
@@ -162,15 +209,16 @@ maji-ndogo-water-crisis-analysis/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
+├── CONTRIBUTING.md
 ├── docs/
 │   ├── project-brief.md
 │   └── visualizations/
-│       ├── national-dashboard.png
-│       ├── sokoto-report.png
-│       ├── akatsi-report.png
-│       ├── amanzi-report.png
-│       ├── hawassa-report.png
-│       └── kilmani-report.png
+│       ├── national.png
+│       ├── sokoto.png
+│       ├── akatsi.png
+│       ├── amanzi.png
+│       ├── hawassa.png
+│       └── kilmani.png
 └── reports/
     └── P3.pbix
 ```
