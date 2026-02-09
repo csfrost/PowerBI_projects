@@ -1,0 +1,61 @@
+# Power BI temporary files
+*.pbix~
+*.pbit~
+*.pbix.tmp
+
+# Power BI Desktop cache
+*.pbix.cache
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+~$*
+*.swp
+*.swo
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Windows thumbnail cache
+Thumbs.db
+Desktop.ini
+
+# Mac thumbnail cache
+.DS_Store
+
+# Python (if any analysis scripts are added)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+env/
+ENV/
+
+# R (if any analysis scripts are added)
+.Rhistory
+.RData
+.Rproj.user
+
+# Documentation build files
+_build/
+site/
